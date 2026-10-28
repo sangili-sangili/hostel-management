@@ -1,0 +1,38 @@
+export const mockNotifications = [
+  {
+    id: 'notif_1',
+    title: 'Trial Expiration Warning',
+    message: 'Apex Youth Residences trial expires in 2 days.',
+    category: 'Trial',
+    read: false,
+    timestamp: '2026-10-28T18:00:00Z',
+    priority: 'high',
+  },
+  {
+    id: 'notif_2',
+    title: 'Payment Failed',
+    message: 'Invoice INV-2026-002 for Sunrise Student Co. failed payment processing.',
+    category: 'Billing',
+    read: false,
+    timestamp: '2026-10-28T12:30:00Z',
+    priority: 'high',
+  },
+  {
+    id: 'notif_3',
+    title: 'Subscription Renewed',
+    message: 'Greenwood Student Living renewed Growth plan for $249.',
+    category: 'Subscription',
+    read: true,
+    timestamp: '2026-10-27T08:15:00Z',
+    priority: 'normal',
+  },
+  {
+    id: 'notif_4',
+    title: 'System Backup Completed',
+    message: 'Automated nightly snapshot of platform database successfully completed.',
+    category: 'Platform Alert',
+    read: true,
+    timestamp: '2026-10-27T02:00:00Z',
+    priority: 'low',
+  },
+];
