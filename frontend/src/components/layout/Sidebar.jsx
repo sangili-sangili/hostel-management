@@ -16,6 +16,7 @@ import {
   ChevronLeft,
   ChevronRight,
   X,
+  ExternalLink,
 } from 'lucide-react';
 import { NAVIGATION_GROUPS } from '../../constants/navigation';
 
@@ -97,6 +98,17 @@ export const Sidebar = ({ isCollapsed, setIsCollapsed, isMobileOpen, setIsMobile
             </ul>
           </div>
         ))}
+
+        {/* Portal Switcher Link to Tenant Portal */}
+        <div className="pt-4 border-t border-slate-800">
+          <NavLink
+            to="/tenant/dashboard"
+            className="flex items-center gap-2 px-3 py-2 rounded-lg text-xs font-medium text-slate-400 hover:text-emerald-400 hover:bg-slate-800 transition-colors"
+          >
+            <ExternalLink className="w-4 h-4 shrink-0" />
+            {!isCollapsed && <span>Switch to Hostel Portal</span>}
+          </NavLink>
+        </div>
       </div>
 
       {/* Footer Collapse Toggle */}

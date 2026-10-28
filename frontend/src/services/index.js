@@ -10,3 +10,5 @@ export * from './supportService';
 export * from './reportService';
 export * from './auditService';
 export * from './settingsService';
+export * from './tenant';
+

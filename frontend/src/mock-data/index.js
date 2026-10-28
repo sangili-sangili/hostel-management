@@ -10,3 +10,5 @@ export * from './ticketsData';
 export * from './reportsData';
 export * from './auditLogsData';
 export * from './settingsData';
+export * from './tenant';
+

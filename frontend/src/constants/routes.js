@@ -45,3 +45,22 @@ export const ROUTES = {
   // Platform Settings
   SETTINGS: '/settings',
 };
+
+export const TENANT_ROUTES = {
+  LOGIN: '/tenant/login',
+  DASHBOARD: '/tenant/dashboard',
+  BRANCHES: '/tenant/branches',
+  ROOMS: '/tenant/rooms',
+  RESIDENTS: '/tenant/residents',
+  RESIDENT_DETAIL: '/tenant/residents/:id',
+  ALLOCATIONS: '/tenant/allocations',
+  FEES: '/tenant/fees',
+  INVOICES: '/tenant/invoices',
+  PAYMENTS: '/tenant/payments',
+  STAFF: '/tenant/staff',
+  NOTIFICATIONS: '/tenant/notifications',
+  REPORTS: '/tenant/reports',
+  SETTINGS: '/tenant/settings',
+  SUBSCRIPTION: '/tenant/subscription',
+};
+
